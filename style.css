@@ -75,4 +75,11 @@ body {
     font-size: 20px;
 }
 
+#forgot {
+    color: var(--tertiary-color);
+}
+
+#Forgot span {
+    color: var(--tertiary-color);
+}
 
