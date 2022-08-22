@@ -52,6 +52,7 @@ body {
     width: 230px;
     padding: 10px;
     font-size: 12px;
+    border: #FEFFB4;
 }
 
 .formSenha {
@@ -59,13 +60,14 @@ body {
     width: 230px;
     padding: 10px;
     font-size: 12px;
+    border: #FEFFB4;
 }
 
 .formButton {
     text-transform: uppercase;
     font-weight: bold;
     display: block;
-    margin: 30px auto;
+    margin: 20px auto;
     background-color: var(--secondary-color);
     border-radius: 10px;
     width: 110px;
