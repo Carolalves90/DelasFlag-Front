@@ -52,7 +52,7 @@ body {
     width: 230px;
     padding: 10px;
     font-size: 12px;
-    border: var(--secondary-color);
+    border: none;
 }
 
 .formSenha {
@@ -60,20 +60,24 @@ body {
     width: 230px;
     padding: 10px;
     font-size: 12px;
-    border: var(--secondary-color);
+    border: none;
 }
 
-.formButton {
+.formSubmit {
     text-transform: uppercase;
     font-weight: bold;
     display: block;
     margin: 20px auto;
     background-color: var(--secondary-color);
     border-radius: 10px;
-    border: var(--secondary-color);
+    border: none;
     width: 110px;
     height: 33px;
     font-size: 20px;
+}
+
+.formSubmit:hover {
+    background-color: var(--primary-color);
 }
 
 #forgot {
