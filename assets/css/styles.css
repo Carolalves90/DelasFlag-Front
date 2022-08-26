@@ -66,7 +66,7 @@ body {
 
 .formSubmit {
     text-transform: uppercase;
-    color: #000000c9;
+    color: var(--tertiary-color);
     font-weight: bold;
     display: block;
     margin: 20px auto;
@@ -80,8 +80,8 @@ body {
 }
 
 .formSubmit:hover {
-    background-color: var(--primary-color);
-    color: var(--tertiary-color);
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
     cursor: pointer;
 }
 
