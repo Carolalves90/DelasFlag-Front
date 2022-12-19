@@ -1,34 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delas Flag Login</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Delas Flag Football</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Mohave&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container">
-        <div>
-            <h1 class="title">Delas Flag Football</h1>
-        </div>
+    <header>
+        <div class="container">
+            <h1><img class="logo-principal" src="/assets/images/Logo Branco Delas.png" alt="Logo Delas Flag Football branco"></h1>
+            <button class="botao-login"><a href="login.html">Login</a></button>
+        </div>  
+        <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Flag Feminino</a></li>
+                    <li><a href="selecao.html">Seleção Feminina</a></li>
+                    <li><a href="times.html">Times Femininos</a></li>
+                </ul>
+        </nav>
+    </header>
 
-        <div class="info">
-            <p>Insira seu email e senha para acessar a plataforma.</p>
-        </div>
+    <img class="banner" src="/assets/images/banner-delas.jpg" alt="banner Delas Flag Football">
 
-        <div class="inserir">
-                <input type="text" placeholder="email" class="formEmail" id="email" required>
-                <br><br>
-                <input type="password" placeholder="senha" class="formSenha" required>
-                <br><br>
-                <button type="submit" class="formSubmit">Login</button>
-                <p id="forgot">Esqueceu sua senha?</p>
-        </div>
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre o Delas Flag Football</h2>
+
+            <p>Esta é uma iniciativa para dar mais visibilidade à modalidade de Flag Football e em consequencia ao esporte feminino, mostrando a evolução da Seleção Brasileira de Flag Football dentro do esporte e nas competições de nível Mundial. 
+            Aqui você poderá ter acesso as conquistas da Seleção Brasileira e conhecer os times femininos de Flag Football.</p>
+            
+        </section>
+        <section class="principal">
+            <h2 class="titulo-principal">O Que é o Flag Football 5x5?</h2>
+            <p>O Flag Football 5x5 é uma modalidade esportiva jogada entre duas equipes, sendo um time de ataque e um time de defesa em campo. 
+            A missão do time de ataque é atravessar todo o campo adversário, chegando na área denominada Endzone para, então, pontuar (marcar um Touchdown), 
+            sendo quatro tentativas para alcançar o meio do campo (Firstdown) e depois mais quatro tentativas marcar a pontuação, quando se atinge a Endzone. 
+            O objetivo da defesa é impedir que o time adversário avance, de forma que ao final das tentativas ou através de uma interceptação (ao obter a posse da bola), 
+            coloque seu time de ataque em campo. Esta modalidade é conhecida por ser um esporte em que o contato físico deve ser evitado, 
+            sendo intencional ou não, pois é passível a falta.</p>
+        </section>
+    </main>
         
-        <div id="Forgot">
-            <p>Ainda não tem conta? <span>Solicitar</span> </p>
-        </div>
-    </div>
+    <footer>
+        <img class="logo-rodape" src="/assets/images/Logo Branco Delas.png" alt="Logo Rodapé Delas Flag Football">
+        <p class="copyright">&copy; Copyright Delas Flag Football</p>
+    </footer>
 
 </body>
 </html>
